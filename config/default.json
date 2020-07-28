@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://paata123:paata123@udemyck.gykpq.mongodb.net/udemyCK?retryWrites=true&w=majority",
+  "jwtSecret": "secret"
+}

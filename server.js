@@ -2,8 +2,16 @@
 // this is an alternative to import
 // this is older, commonjs syntax
 const express = require('express');
+const connectDB = require('./config/db');
+
+//Connect Database
+connectDB();
 
 const app = express();
+
+// Init Middleware
+// allows reading for an incoming body data
+app.use(express.json({ extended: false }));
 
 app.get('/', (req, res) => {
   res.json({ msg: 'hello world' });
