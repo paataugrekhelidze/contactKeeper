@@ -2,11 +2,13 @@
 Simple MERN application that allows authentication and tracks unique data for each registered account
 
 
-## Backened (node.js)
+## Backened (express)
 ### Server.js
+Very basic Express server that connects to MongoDB as defined in [config folder](/config/db.js)
 ### Routes
 ### Models
 ### middleware
+### MongoDB
 ### config
 ### installation
 
