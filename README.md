@@ -4,8 +4,8 @@ Simple MERN application that allows authentication and tracks unique data for ea
 
 ## Backened (express)
 ### Server.js
-Very basic Express server that connects to MongoDB as defined in [config folder](/config/db.js)
-Also sets up routes that the express server will be using - [/api/users](/routes/users) , [/api/auth](/routes/auth) , [/api/contacts](/routes/contacts)
+- Very basic Express server that connects to MongoDB as defined in [config folder](/config/db.js)
+- Also sets up routes that the express server will be using - [/api/users](/routes/users) , [/api/auth](/routes/auth) , [/api/contacts](/routes/contacts)
 ### Routes
 ### Models
 ### middleware
