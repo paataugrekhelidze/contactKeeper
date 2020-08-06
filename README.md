@@ -2,7 +2,7 @@
 Simple MERN application that allows authentication and tracks unique data for each registered account
 
 
-#Backened
+# Backened
 ## Server.js
 ## Routes
 ## Models
